@@ -11,6 +11,7 @@ const SteamAchievementsTheme: MantineThemeOverride = {
   },
   colors: {
   },
+  fontFamily: 'inherit',
   components: {
     Title: {
       styles: (theme) => ({
@@ -23,6 +24,7 @@ const SteamAchievementsTheme: MantineThemeOverride = {
     Button: {
       styles: (theme) => ({
         root: {
+          fontWeight: 600,
           '&:hover': {
           },
           '&:focus-visible': {
